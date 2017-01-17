@@ -22,10 +22,10 @@ RIght: askdsaieklwjhklewhrwe
 <br>
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D_B.jpg" width="400px">
-<br>
-*Left*: Efficiency comparison of HORD and HORD-ISP with baselines for optimizing a CNN with 19 hyperparameters on the CIFAR-10 dataset (19-CNN). We plot validation error curves of the compared methods against number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods. HORD-ISP only takes 54 function evaluations to achieve the lowest validation error that the best baseline (SMAC) achieves after 200 evaluations. 
-<br>
-*Right*: Mean validation error v.s. number of function evaluations of different methods for optimizing 19 hyperparameters of CNN on CIFAR-10. One dot represents validation error of an algorithm at the corresponding evaluation instance. After n<sub>0</sub> evaluations, the searching of HORD and HORD-ISP starts to focus on the hyperparameters with smaller validation error (< 35%), in stark contrast with other methods.
+
+**Left**: Efficiency comparison of HORD and HORD-ISP with baselines for optimizing a CNN with 19 hyperparameters on the CIFAR-10 dataset (19-CNN). We plot validation error curves of the compared methods against number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods. HORD-ISP only takes 54 function evaluations to achieve the lowest validation error that the best baseline (SMAC) achieves after 200 evaluations. 
+
+**Right**: Mean validation error v.s. number of function evaluations of different methods for optimizing 19 hyperparameters of CNN on CIFAR-10. One dot represents validation error of an algorithm at the corresponding evaluation instance. After n<sub>0</sub> evaluations, the searching of HORD and HORD-ISP starts to focus on the hyperparameters with smaller validation error (< 35%), in stark contrast with other methods.
 
 For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
 
