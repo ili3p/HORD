@@ -11,6 +11,8 @@ HORD does well in low dimensions but it is exceptionally better in higher dimens
 For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
 
 ![Figure 1](figures/exp-6D_B.jpg)
+<img src="figures/exp-6D_B.jp" width="100px">
+<img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D_B.jpg" width="100px">
 
 For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
 
