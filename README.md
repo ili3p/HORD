@@ -2,12 +2,24 @@
 
 Code for reproducing results published in the paper "Efficient Hyperparameter Optimization of Deep Learning Algorithms Using Deterministic RBF Surrogates" (AAAI-17) by Ilija Ilievski, Taimoor Akhtar, Jiashi Feng, and Christine Annette Shoemaker. 
 
+### About
+
+The paper presents an algorithm for Hyperparameter Optimization via RBF and Dynamic coordinate search (HORD).
+HORD searches a surrogate model of the expensive function (full training and validation of deep learning algorithm) for the most promising hyperparameter values through dynamic coordinate search and thus requires many fewer expensive function evaluations. 
+HORD does well in low dimensions but it is exceptionally better in higher dimensions.
+ Extensive evaluations on MNIST and CIFAR-10 for four deep learning algorithms demonstrate HORD significantly outperforms the well-established Bayesian optimization methods such as GP, SMAC, and TPE. 
+For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
+
+[Figure 1](figures/exp-6D_B.pdf)
+
+For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
+
 ### Installation
 
 The HORD algorithm presented in the paper uses the open-source pySOT toolbox by David Eriksson, David Bindel, and Christine Shoemaker.
 To install pySOT go to [pySOT](https://github.com/dme65/pySOT) and follow the directions there.
 
-The implementation of the deep learning algorithms is in torch, so you would also need to install torch from [here](https://github.com/torch/distro). We ran the deep learning algorithms on a cluster of GPU devices but you can modify the code and run them on CPU.
+The implementation of the deep learning algorithms is in torch, so you would also need to install torch from [torch](https://github.com/torch/distro). We ran the deep learning algorithms on a cluster of GPU devices but you can modify the code and run them on CPU.
 
 
 
@@ -30,7 +42,7 @@ The four arguments to `pySOT_runner.py` are the following:
 - experiment name
 
 
-### Citing the Hyperparameter Optimization via RBF and Dynamic coordinate search (HORD) algorithm
+### Citing the HORD algorithm
 
 To cite the paper use the following BibTeX entry:
 
