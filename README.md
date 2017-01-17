@@ -9,6 +9,8 @@ HORD searches a surrogate model of the expensive function (full training and val
 HORD does well in low dimensions but it is exceptionally better in higher dimensions.
  Extensive evaluations on MNIST and CIFAR-10 for four deep learning algorithms demonstrate HORD significantly outperforms the well-established Bayesian optimization methods such as GP, SMAC, and TPE. 
 For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
+
+
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D_B.jpg" width="400px">
 
