@@ -10,7 +10,7 @@ HORD does well in low dimensions but it is exceptionally better in higher dimens
  Extensive evaluations on MNIST and CIFAR-10 for four deep learning algorithms demonstrate HORD significantly outperforms the well-established Bayesian optimization methods such as GP, SMAC, and TPE. 
 For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
 
-![Figure 1](figures/exp-6D_B.pdf)
+![Figure 1](figures/exp-6D_B.jpg)
 
 For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
 
