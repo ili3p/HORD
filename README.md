@@ -9,19 +9,23 @@ HORD searches a surrogate model of the expensive function (full training and val
 HORD does well in low dimensions but it is exceptionally better in higher dimensions.
  Extensive evaluations on MNIST and CIFAR-10 for four deep learning algorithms demonstrate HORD significantly outperforms the well-established Bayesian optimization methods such as GP, SMAC, and TPE. 
 For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
-<center>
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D_B.jpg" width="400px">
-</center>
 <br>
 Left: Blaldaskjdhas ahd kjsahdjsakhdjsakhdsa
 RIght: askdsaieklwjhklewhrwe
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D_B.jpg" width="400px">
+<br>
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-15D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-15D_B.jpg" width="400px">
+<br>
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D_B.jpg" width="400px">
+<br>
+*Left*: Efficiency comparison of HORD and HORD-ISP with baselines for optimizing a CNN with 19 hyperparameters on the CIFAR-10 dataset (19-CNN). We plot validation error curves of the compared methods against number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods. HORD-ISP only takes 54 function evaluations to achieve the lowest validation error that the best baseline (SMAC) achieves after 200 evaluations. 
+<br>
+*Right*: Mean validation error v.s. number of function evaluations of different methods for optimizing 19 hyperparameters of CNN on CIFAR-10. One dot represents validation error of an algorithm at the corresponding evaluation instance. After n<sub>0</sub> evaluations, the searching of HORD and HORD-ISP starts to focus on the hyperparameters with smaller validation error (< 35%), in stark contrast with other methods.
 
 For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
 
