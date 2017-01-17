@@ -11,21 +11,31 @@ HORD does well in low dimensions but it is exceptionally better in higher dimens
 For instance, on average, HORD is more than 6 times faster than GP-EI in obtaining the best configuration of 19 hyperparameters.
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D_B.jpg" width="400px">
-<br>
-Left: Blaldaskjdhas ahd kjsahdjsakhdjsakhdsa
-RIght: askdsaieklwjhklewhrwe
+
+**Left**: Efficiency comparison of HORD with baselines. The methods are used for optimizing an MLP network with 6 hyperparameters on the MNIST dataset (**6-MLP**). We plot validation error curves of the compared methods  against  number of the function evaluations (averaged over 10 trials).
+
+**Right**: Mean validation error v.s. number of function evaluations  of different methods for optimizing 6 hyperparameters of MLP (**6-MLP**) network on MNIST (averaged over 10 trials). One dot represents validation error of an algorithm at the corresponding evaluation instance.
+
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D_B.jpg" width="400px">
-<br>
+
+**Left**: Efficiency comparison of HORD with baselines. The methods are used for optimizing a CNN with 8 hyperparameters on the MNIST dataset (**8-CNN**). We plot validation error curves of the compared methods  against  number of the function evaluations (averaged over 5 trials). 
+
+**Right**: Mean validation error v.s. number of function evaluations of different methods for optimizing 8 hyperparameters of CNN (**8-CNN**) on MNIST (averaged over 5 trials). One dot represents validation error of an algorithm at the corresponding evaluation instance.
+
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-15D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-15D_B.jpg" width="400px">
-<br>
+
+**Left**: Efficiency comparison of HORD and HORD-ISP with baselines. The methods are used for optimizing a CNN with 15 hyperparameters on the MNIST dataset (**15-CNN**). We plot  validation error curves of the compared methods  against  number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods.
+
+**Right**: Mean validation error  v.s. number of function evaluations  of different methods for optimizing 15 hyperparameters of CNN (**15-CNN**) on MNIST (averaged over 5 trials). One dot represents validation error of an algorithm at the corresponding evaluation instance. 
+
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-19D_B.jpg" width="400px">
 
-**Left**: Efficiency comparison of HORD and HORD-ISP with baselines for optimizing a CNN with 19 hyperparameters on the CIFAR-10 dataset (19-CNN). We plot validation error curves of the compared methods against number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods. HORD-ISP only takes 54 function evaluations to achieve the lowest validation error that the best baseline (SMAC) achieves after 200 evaluations. 
+**Left**: Efficiency comparison of HORD and HORD-ISP with baselines for optimizing a CNN with 19 hyperparameters on the CIFAR-10 dataset (**19-CNN**). We plot validation error curves of the compared methods against number of the function evaluations (averaged over 5 trials). HORD and HORD-ISP show to be significantly more efficient than other methods. HORD-ISP only takes 54 function evaluations to achieve the lowest validation error that the best baseline (SMAC) achieves after 200 evaluations. 
 
-**Right**: Mean validation error v.s. number of function evaluations of different methods for optimizing 19 hyperparameters of CNN on CIFAR-10. One dot represents validation error of an algorithm at the corresponding evaluation instance. After n<sub>0</sub> evaluations, the searching of HORD and HORD-ISP starts to focus on the hyperparameters with smaller validation error (< 35%), in stark contrast with other methods.
+**Right**: Mean validation error v.s. number of function evaluations  of different methods for optimizing 19 hyperparameters of CNN (**19-CNN**) on CIFAR-10. One dot represents validation error of an algorithm at the corresponding evaluation instance. After n<sub>0</sub> evaluations, the searching of HORD and HORD-ISP starts to focus on the hyperparameters with smaller validation error (<35%), in stark contrast with other methods.
 
 For more details download the paper from [arxiv](https://arxiv.org/abs/1607.08316).
 
