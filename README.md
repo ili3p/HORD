@@ -12,6 +12,7 @@ For instance, on average, HORD is more than 6 times faster than GP-EI in obtaini
 
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D.jpg" width="400px">
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-6D_B.jpg" width="400px">
+<br>
 Left: Blaldaskjdhas ahd kjsahdjsakhdjsakhdsa
 RIght: askdsaieklwjhklewhrwe
 <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D.jpg" width="400px">
