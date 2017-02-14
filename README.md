@@ -76,7 +76,7 @@ The four arguments to `pySOT_runner.py` are the following:
 To cite the paper use the following BibTeX entry:
 
 ```
-@inproceedings{melville2002content,
+@inproceedings{ilievski2017efficient,
   title={Efficient Hyperparameter Optimization of Deep Learning Algorithms Using Deterministic RBF Surrogates},
   author={Ilievski, Ilija and Akhtar, Taimoor and Feng, Jiashi and Shoemaker, Christine},
   booktitle={31st AAAI Conference on Artificial Intelligence (AAAI-17)},
