@@ -2,7 +2,7 @@
 
 Code for reproducing results published in the paper ["Efficient Hyperparameter Optimization of Deep Learning Algorithms Using Deterministic RBF Surrogates"](https://ilija139.github.io/pub/aaai-17.pdf) (AAAI-17) by Ilija Ilievski, Taimoor Akhtar, Jiashi Feng, and Christine Annette Shoemaker. 
 
-[arXiv](https://arxiv.org/abs/1607.08316)  [PDF](https://ilija139.github.io/pub/aaai-17.pdf)  [Supplement](https://ilija139.github.io/pub/aaai-17-sup.pdf)
+[arXiv](https://arxiv.org/abs/1607.08316) -- [PDF](https://ilija139.github.io/pub/aaai-17.pdf) -- [Supplement](https://ilija139.github.io/pub/aaai-17-sup.pdf) -- [Poster](https://ilija139.github.io/pub/aaai-17_poster.pdf)
 
 ### About
 
