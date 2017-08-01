@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../PySOT_StaticWeights/')
+sys.path.append('../pySOT/')
 from src import *
 from poap.controller import ThreadController, BasicWorkerThread
 import numpy as np
