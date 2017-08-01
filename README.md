@@ -20,8 +20,7 @@ For instance, on average, HORD is more than 6 times faster than GP-EI in obtaini
 
 **Right**: Mean validation error v.s. number of function evaluations  of different methods for optimizing 6 hyperparameters of MLP (**6-MLP**) network on MNIST (averaged over 10 trials). One dot represents validation error of an algorithm at the corresponding evaluation instance.
 
-<img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D.jpg" width="420px">
-<img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D_B.jpg" width="420px">
+<img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D.jpg" width="420px"> <img src="https://github.com/ilija139/HORD/blob/master/figures/exp-8D_B.jpg" width="420px">
 
 **Left**: Efficiency comparison of HORD with baselines. The methods are used for optimizing a CNN with 8 hyperparameters on the MNIST dataset (**8-CNN**). We plot validation error curves of the compared methods  against  number of the function evaluations (averaged over 5 trials). 
 
