@@ -1,0 +1,4 @@
+[INFO  Fri Aug  4 15:19:44 2017] eval_mnist_GPU.lua:204: {deviceId : 1, showProgress : false, seed : 139, hiddenNodes : 55, momentum : 0.85, learnRate : 0.14, threads : 16, experimentId : "p-6-1-139-f", batchSize : 128, save : "logs", mean : 0, std : 0.03, epochs : 16}
+[INFO  Fri Aug  4 15:19:44 2017] eval_mnist_GPU.lua:205: validation: 0.0272	 test: 0.0293
+[INFO  Fri Aug  4 15:21:57 2017] eval_mnist_GPU.lua:204: {deviceId : 1, showProgress : false, seed : 139, hiddenNodes : 55, momentum : 0.85, learnRate : 0.14, threads : 16, experimentId : "p-6-1-139-f", batchSize : 128, save : "logs", mean : 0, std : 0.03, epochs : 16}
+[INFO  Fri Aug  4 15:21:57 2017] eval_mnist_GPU.lua:205: validation: 0.0272	 test: 0.0293
