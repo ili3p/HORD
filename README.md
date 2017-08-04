@@ -1,3 +1,6 @@
+This branch contains code modifications for the journal version of the AAAI paper. 
+
+
 # Efficient Hyperparameter Optimization of Deep Learning Algorithms Using Deterministic RBF Surrogates
 
 Code for reproducing results published in the paper ["Efficient Hyperparameter Optimization of Deep Learning Algorithms Using Deterministic RBF Surrogates"](https://ilija139.github.io/pub/aaai-17.pdf) (AAAI-17) by Ilija Ilievski, Taimoor Akhtar, Jiashi Feng, and Christine Annette Shoemaker. 
