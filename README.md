@@ -43,6 +43,7 @@ For more details download the paper from [arxiv](https://arxiv.org/abs/1607.0831
 
 The HORD algorithm presented in the paper uses the open-source pySOT toolbox by David Eriksson, David Bindel, and Christine Shoemaker.
 To install pySOT go to [pySOT](https://github.com/dme65/pySOT) and follow the directions there.
+We use version 0.1.23 commit `306ece9785fcb9`.
 
 The implementation of the deep learning algorithms is in torch, so you would also need to install torch from [torch](https://github.com/torch/distro). We ran the deep learning algorithms on a cluster of GPU devices but you can modify the code and run them on CPU.
 
