@@ -3,6 +3,7 @@ require 'cutorch'
 require 'nn'
 require 'cunn'
 require 'optim'
+require 'sys'
 mnist = require 'mnist'
 logger = require "log"
 
@@ -65,7 +66,7 @@ classes = 10
 -- create the MLP model
 model = nn.Sequential()
 
-model:add(nn.Reshape(imgDim * imgDim))
+model:add(nn.View(imgDim * imgDim))
 model:add(nn.Linear(imgDim * imgDim, opt.hiddenNodes))
 model:add(nn.ReLU())
 model:add(nn.Linear(opt.hiddenNodes, classes))

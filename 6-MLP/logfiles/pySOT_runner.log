@@ -1,2 +1,4 @@
 INFO:src.sot_sync_strategies:=== Start ===
-INFO:src.sot_sync_strategies:Feasible 2.720e-02 @ [  0.00393   0.03282   0.13604   0.85     16.       55.     ]
+INFO:src.sot_sync_strategies:Feasible 3.300e-02 @ [   0.00107    0.00454    0.02232    0.96428   16.       195.     ]
+INFO:src.sot_sync_strategies:Feasible 2.910e-02 @ [   0.00321    0.08939    0.10761    0.86428   12.       120.     ]
+INFO:src.sot_sync_strategies:Feasible 5.810e-02 @ [  0.00893   0.06818   0.15025   0.99285  11.       66.     ]

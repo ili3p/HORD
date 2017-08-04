@@ -36,6 +36,7 @@ def main():
 
     data = TorchOptim(seed=seed, server=server)
 
+    weights = np.array([1])
     
     # Create a strategy and a controller
     controller = ThreadController()
@@ -45,7 +46,7 @@ def main():
             maxeval=maxeval, nsamples=nsamples,
             exp_design=LatinHypercube(dim=data.dim, npts=2*(data.dim+1)),
             response_surface=RBFInterpolant(surftype=CubicRBFSurface, maxp=maxeval),
-            sampling_method=CandidateDYCORS(data=data, numcand=100*data.dim))
+            sampling_method=CandidateDYCORS(data=data, numcand=100*data.dim, weights=weights))
 
     # Launch the threads and give them access to the objective function
     for _ in range(nthreads):
