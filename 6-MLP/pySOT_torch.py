@@ -88,6 +88,8 @@ class TorchOptim:
         fileId = 'p-'+str(len(x))+'-'+self.seed+'-'+self.server
         m = self.hyper_map
 
+        # return 0.19
+
         exp_arg = []
         exp_arg.append('th'),
         exp_arg.append('eval_mnist_GPU.lua')

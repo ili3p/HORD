@@ -39,13 +39,6 @@ def main():
     bounds = np.vstack((data.xlow, data.xup)).T
     basisp = basis_TD(data.dim, 2)  # use order 2 and no cross-terms
 
-    models = [
-        RBFInterpolant(surftype=CubicRBFSurface, maxp=maxeval),
-        PolyRegression(bounds, basisp)
-    ]
-    response_surface = EnsembleSurrogate(model_list=models, maxp=maxeval)
-
-
     # weights = np.array([1])
     
     # Create a strategy and a controller
@@ -55,7 +48,7 @@ def main():
             worker_id=0, data=data,
             maxeval=maxeval, nsamples=nsamples,
             exp_design=LatinHypercube(dim=data.dim, npts=2*(data.dim+1)),
-            response_surface=response_surface,
+            response_surface=PolyRegression(bounds, basisp),
             sampling_method=CandidateDYCORS(data=data, numcand=100*data.dim))
 
     # Launch the threads and give them access to the objective function
