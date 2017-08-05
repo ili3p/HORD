@@ -157,7 +157,7 @@ class PolyRegression(object):
         self.nump += 1
         self.updated = False
 
-    def eval(self, xx):
+    def eval(self, xx, d=None):
         """Evaluate the regression surface at point xx
 
         :param xx: Point where to evaluate
@@ -171,7 +171,7 @@ class PolyRegression(object):
         fx = self._predict(xx)
         return fx[0]
 
-    def evals(self, xx):
+    def evals(self, xx, d=None):
         """Evaluate the regression surface at points xx
 
         :param xx: Points where to evaluate
@@ -182,10 +182,10 @@ class PolyRegression(object):
         self.updated = True
 
         fx = np.zeros(shape=(xx.shape[0], 1))
-        fx[:, 0] = self._predict(xx)
+        fx[:, 0] = self._predict(xx)[:,0]
         return fx
 
-    def deriv(self, x):
+    def deriv(self, x, d=None):
         """Evaluate the derivative of the regression surface at x
 
         :param x: Data point
