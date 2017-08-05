@@ -54,7 +54,8 @@ def main():
         SyncStrategyNoConstraints(
             worker_id=0, data=data,
             maxeval=maxeval, nsamples=nsamples,
-            exp_design=LatinHypercube(dim=data.dim, npts=2*(data.dim+1)),
+            # exp_design=LatinHypercube(dim=data.dim, npts=2*(data.dim+1)),
+            exp_design=LatinHypercube(dim=data.dim, npts=2),
             # response_surface=response_surface,
             response_surface=PolyRegression(bounds, basisp),
             sampling_method=CandidateDYCORS(data=data, numcand=100*data.dim))
