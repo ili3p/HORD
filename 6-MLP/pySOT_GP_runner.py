@@ -10,7 +10,7 @@ from datetime import datetime
 import time
 
 def main():
-    log_file = os.path.splitext(__file__)[0]+".log"
+    log_file = os.path.splitext(__file__)[0]+"_"+sys.argv[3]+"_.log"
     millis = int(round(time.time() * 1000))
     print('Started: ' + str(datetime.now()) + ' (' + str(millis) + ')')
     if not os.path.exists("./logfiles"):
